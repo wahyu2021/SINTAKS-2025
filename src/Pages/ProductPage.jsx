@@ -3,6 +3,7 @@ import Navbar from "./NavBar"
 import { FaArrowRight } from "react-icons/fa6";
 import { FiFilter } from "react-icons/fi";
 import Footer from "./Footer";
+import heroProduct from "../assets/hero-product.jpg";
 
 function ProductPage() {
   return (
@@ -23,7 +24,7 @@ function HeroSection() {
       <div
         className="hero h-[450px] mt-16"
         style={{
-          backgroundImage: "url(src/assets/hero-product.jpg)",
+          backgroundImage: `url(${heroProduct})`,
         }}
       >
         <div className="hero-overlay"></div>
@@ -67,7 +68,7 @@ function ProductSection() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6 max-w-full px-64 mx-auto">
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -76,7 +77,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -85,7 +86,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -94,7 +95,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -103,7 +104,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -112,7 +113,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -121,7 +122,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"
@@ -130,7 +131,7 @@ function ProductSection() {
             valueAvailable="Year-round"
           />
           <ProductCard
-            image="src/assets/hero-product.jpg"
+            image={heroProduct}
             title="Sumatera Mandheling"
             subTitle="Aceh, North Sumatra"
             valueProcessing="Wet-Hulled"

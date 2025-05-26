@@ -5,6 +5,8 @@ import { FiCoffee } from "react-icons/fi";
 import { RiGlobalLine } from "react-icons/ri";
 import { IoLeafOutline } from "react-icons/io5";
 import Footer from "./Footer";
+import hero from "../assets/hero.jpg"
+import kopi from "../assets/kopi.jpg"
 
 function HomePage() {
   return (
@@ -27,7 +29,7 @@ function HeroSection() {
       <div
         className="hero h-[450px] mt-16"
         style={{
-          backgroundImage: "url(src/assets/hero.jpg)",
+          backgroundImage: `url(${hero})`,
         }}
       >
         <div className="hero-overlay"></div>
@@ -56,7 +58,7 @@ function DescSection() {
       <div className="hero bg-amber-50 h-[650px]">
         <div className="hero-content flex-col lg:flex-row-reverse px-16">
           <img
-            src="src/assets/kopi.jpg"
+            src={kopi}
             alt=""
             className="max-w-sm rounded-lg shadow-2xl"
           />
@@ -168,7 +170,7 @@ function FeaturedProducts() {
 
                 {/* Gambar atau background */}
                 <img
-                  src="src/assets/kopi.jpg"
+                  src={kopi}
                   alt="Coffee"
                   className="object-cover h-full w-full rounded-t-xl"
                 />
@@ -199,7 +201,7 @@ function FeaturedProducts() {
 
                 {/* Gambar atau background */}
                 <img
-                  src="src/assets/kopi.jpg"
+                  src={kopi}
                   alt="Coffee"
                   className="object-cover h-full w-full rounded-t-xl"
                 />
@@ -230,7 +232,7 @@ function FeaturedProducts() {
 
                 {/* Gambar atau background */}
                 <img
-                  src="src/assets/kopi.jpg"
+                  src={kopi}
                   alt="Coffee"
                   className="object-cover h-full w-full rounded-t-xl"
                 />

@@ -5,6 +5,7 @@ import { db } from "../Firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { Check, Clock, Copy, Mail, MapPin, Phone } from "lucide-react";
 import MyMap from "../components/map";
+import heroContact from '../assets/hero-contact.jpg'
 
 function ContactPage() {
   return (
@@ -38,7 +39,7 @@ function HeroSection() {
       <div
         className="hero h-[450px] mt-16"
         style={{
-          backgroundImage: "url(src/assets/hero-contact.jpg)",
+          backgroundImage: `url(${heroContact})`,
         }}
       >
         <div className="hero-overlay"></div>
